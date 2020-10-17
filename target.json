@@ -1,0 +1,7 @@
+{
+  "web": {
+    "base_url": "http://localhost/litecart/",
+    "user": "admin",
+    "password": "admin"
+  }
+}
