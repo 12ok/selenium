@@ -3,6 +3,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 from fixture.admin import AdminHelper
 from fixture.session import SessionHelper
+from fixture.store import StoreHelper
 
 
 class Application:
@@ -22,6 +23,7 @@ class Application:
         self.password = password
         self.admin = AdminHelper(self)
         self.session = SessionHelper(self)
+        self.store = StoreHelper(self)
 
     def is_valid(self):
         try:
